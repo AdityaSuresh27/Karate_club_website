@@ -1,162 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karate Club</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karate Club</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <img src="lgo1.jpg" alt="Logo" class="logo">
-        <h1>Noble Arts Karate Club</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#styles">Karate Styles</a></li>
-            <li><a href="#trainers">Trainers</a></li>
-            <li><a href="#reviews">Reviews</a></li>
-            <li><a href="#images">Images</a></li>
-        </ul>
-    </nav>
-    <section id="about" class="main">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>Unleash your inner warrior on the Karate Court, where discipline meets determination under the guidance of our expert trainers. From mastering the art of self-defense to honing your focus and agility, our Karate sessions are designed to empower both body and mind, ensuring that you leave each session stronger and more confident than before.</p>
-        </div>
-    </section>
-    <section id="styles" class="main">
-        <div class="container karate-styles">
-            <div class="karate-styles-content">
-                <h2>Karate Styles</h2>
-                <p>There are many styles of karate, including Shotokan, Goju-Ryu and Wado-Ryu.</p>
-                <button id="toggleInfo">
-                    <div class="shadow"></div>
-                    <div class="edge"></div>
-                    <div class="front">Show Information</div>
-                </button>
-                <div id="karateInfo" style="display: none;">
-                  <p>Shotokan: Known for its powerful linear techniques and deep stances. Effective in developing speed and power.</p>
-                  <p>Goju-Ryu: Combines hard and soft techniques, focusing on close-quarter combat and breathing control. Excellent for self-defense and flexibility.</p>
-                  <p>Wado-Ryu: Blends karate with jujitsu, emphasizing body shifting to avoid attacks. Great for enhancing agility and evasiveness.</p>
-                </div>
-            </div>
-            <img src="karatestyles.jpeg" alt="Karate Styles">
-        </div>
-        <script>
-            document.getElementById('toggleInfo').addEventListener('click', function() {
-                var infoDiv = document.getElementById('karateInfo');
-                if (infoDiv.style.display === 'none') {
-                    infoDiv.style.display = 'block';
-                } else {
-                    infoDiv.style.display = 'none';
-                }
-            });
-        </script>
-    </section>
-    <section id="trainers" class="main">
-        <div class="container trainer">
-          <div class="trainer-content">
-            <h2>Our Trainers</h2>
-            <p>Our certified trainers are dedicated to helping you achieve your goals. They provide customized workout plans and one-on-one guidance, ensuring that every member receives the personalized attention they need to excel. Our trainers are not only skilled in the art of karate but also possess extensive knowledge in fitness and nutrition, allowing them to offer comprehensive support to all our members.</p>
-            <p>Each trainer brings a unique set of skills and experiences to the club, having trained and competed at national and international levels. They are passionate about karate and committed to fostering a positive and motivating environment. Whether you're a beginner or an advanced practitioner, our trainers will work with you to develop your technique, improve your strength and agility, and enhance your overall well-being.</p>
-            <p>In addition to regular training sessions, our trainers conduct specialized workshops and seminars on various aspects of karate, such as kata, kumite, and self-defense techniques. They also organize regular assessments to monitor your progress and adjust your training plan as needed, ensuring continuous improvement and helping you reach your full potential.</p>
-        </div>
-            <img src="teach.jpg" alt="Trainer">
-        </div>
-    </section>
-    <section id="reviews" class="main">
-      <div class="container reviews">
-          <div class="reviews-content">
-              <h2>Customer Reviews</h2>
-              <div class="testimonial-col">
-                  <img src="customer.jpg" alt="Customer 1">
-                  <div class="testimonial-text">
-                      <p>"I've been a member of the Karate Club for the past six months, and it's been an incredible journey. The staff is friendly, the facilities are top-notch, and I've seen amazing results!"</p>
-                      <p><strong>Kaushal Loya</strong></p>
-                  </div>
-              </div>
-              <div class="testimonial-col">
-                  <img src="customer.jpg" alt="Customer 2">
-                  <div class="testimonial-text">
-                      <p>"The Karate Club has truly changed my life. The trainers are knowledgeable and supportive, and the group classes are motivating. I highly recommend it!"</p>
-                      <p><strong>Paarthu Reddy Gavni</strong></p>
-                  </div>
-              </div>
-              <div class="testimonial-col">
-                  <img src="customer.jpg" alt="Customer 3">
-                  <div class="testimonial-text">
-                      <p>"Joining the Karate Club was one of the best decisions I've made. The community here is amazing, and I've gained so much confidence and strength. Highly recommended!"</p>
-                      <p><strong>Aditya Suresh</strong></p>
-                  </div>
-              </div>
-              <div class="testimonial-col">
-                  <img src="customer.jpg" alt="Customer 4">
-                  <div class="testimonial-text">
-                      <p>"I love the variety of classes and the dedication of the trainers. The environment is welcoming and encouraging, making it easy to stay motivated and committed to my fitness journey."</p>
-                      <p><strong>Priyansh Narang</strong></p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-  
-    <section id="images" class="main">
+<header>
+<img src="lgo1.jpg" alt="Logo" class="logo">
+<h1>Noble Arts Karate Club</h1>
+</header>
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#styles">Karate Styles</a></li>
+<li><a href="#trainers">Trainers</a></li>
+<li><a href="#reviews">Reviews</a></li>
+<li><a href="#images">Images</a></li>
+</ul>
+</nav>
+
+<section id="about" class="main">
     <div class="container">
-        <h2>Images</h2>
-        <div class="wrapper">
-            <div class="container">
-                <input type="radio" name="slide" id="c1" checked>
-                <label for="c1" class="card" style="background-image: url('karateimg1.webp');">
-                    <div class="row">
-                        <div class="icon">1</div>
-                        <div class="description">
-                            <h4>Training Session</h4>
-                            <p>Focus and determination in practice.</p>
-                        </div>
-                    </div>
-                </label>
-                <input type="radio" name="slide" id="c2">
-                <label for="c2" class="card" style="background-image: url('karateimg2.jpeg.jpg');">
-                    <div class="row">
-                        <div class="icon">2</div>
-                        <div class="description">
-                            <h4>Forms and Kata</h4>
-                            <p>Precision and fluid movements.</p>
-                        </div>
-                    </div>
-                </label>
-                <input type="radio" name="slide" id="c3">
-                <label for="c3" class="card" style="background-image: url('karateimg2.webp');">
-                    <div class="row">
-                        <div class="icon">3</div>
-                        <div class="description">
-                            <h4>Team Training</h4>
-                            <p>Building strength and unity together.</p>
-                        </div>
-                    </div>
-                </label>
-                <input type="radio" name="slide" id="c4">
-                <label for="c4" class="card" style="background-image: url('karateimg4.webp');">
-                    <div class="row">
-                        <div class="icon">4</div>
-                        <div class="description">
-                            <h4>Competition</h4>
-                            <p>Showcasing skill and discipline.</p>
-                        </div>
-                    </div>
-                </label>
-            </div>
-        </div>
+        <h2>About Us</h2>
+        <p>Unleash your inner warrior on the Karate Court, where discipline meets determination under the guidance of our expert trainers. From mastering the art of self-defense to honing your focus and agility, our Karate sessions are designed to empower both body and mind, ensuring that you leave each session stronger and more confident than before.</p>
     </div>
 </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Karate Club. All rights reserved.</p>
+<section id="styles" class="main">
+<div class="container karate-styles">
+<div class="karate-styles-content">
+<h2>Karate Styles</h2>
+<p>There are many styles of karate, including Shotokan, Goju-Ryu and Wado-Ryu.</p>
+<button id="toggleInfo">
+    <div class="shadow"></div>
+    <div class="edge"></div>
+    <div class="front">Show Information</div>
+</button>
+<div id="karateInfo" style="display: none;">
+    <p>Shotokan: Known for its powerful linear techniques and deep stances. Effective in developing speed and power.</p>
+    <p>Goju-Ryu: Combines hard and soft techniques, focusing on close-quarter combat and breathing control. Excellent for self-defense and flexibility.</p>
+    <p>Wado-Ryu: Blends karate with jujitsu, emphasizing body shifting to avoid attacks. Great for enhancing agility and evasiveness.</p>
+</div>
+</div>
+<img src="karatestyles.jpeg" alt="Karate Styles">
+</div>
+<script>
+document.getElementById('toggleInfo').addEventListener('click', function() {
+    var infoDiv = document.getElementById('karateInfo');
+    if (infoDiv.style.display === 'none') {
+        infoDiv.style.display = 'block';
+    } else {
+        infoDiv.style.display = 'none';
+    }
+});
+</script>
+</section>
+
+<section id="trainers" class="main">
+<div class="container trainer">
+<div class="trainer-content">
+<h2>Our Trainers</h2>
+<p>Our certified trainers are dedicated to helping you achieve your goals. They provide customized workout plans and one-on-one guidance, ensuring that every member receives the personalized attention they need to excel. Our trainers are not only skilled in the art of karate but also possess extensive knowledge in fitness and nutrition, allowing them to offer comprehensive support to all our members.</p>
+<p>Each trainer brings a unique set of skills and experiences to the club, having trained and competed at national and international levels. They are passionate about karate and committed to fostering a positive and motivating environment. Whether you're a beginner or an advanced practitioner, our trainers will work with you to develop your technique, improve your strength and agility, and enhance your overall well-being.</p>
+<p>In addition to regular training sessions, our trainers conduct specialized workshops and seminars on various aspects of karate, such as kata, kumite, and self-defense techniques. They also organize regular assessments to monitor your progress and adjust your training plan as needed, ensuring continuous improvement and helping you reach your full potential.</p>
+</div>
+<img src="teach.jpg" alt="Trainer">
+</div>
+</section>
+
+<section id="reviews" class="main">
+<div class="container reviews">
+<div class="reviews-content">
+<h2>Customer Reviews</h2>
+<div class="testimonial-col">
+<img src="customer.jpg" alt="Customer 1">
+<div class="testimonial-text">
+    <p>"I've been a member of the Karate Club for the past six months, and it's been an incredible journey. The staff is friendly, the facilities are top-notch, and I've seen amazing results!"</p>
+    <p><strong>Kaushal Loya</strong></p>
+</div>
+</div>
+<div class="testimonial-col">
+<img src="customer.jpg" alt="Customer 2">
+<div class="testimonial-text">
+    <p>"The Karate Club has truly changed my life. The trainers are knowledgeable and supportive, and the group classes are motivating. I highly recommend it!"</p>
+    <p><strong>Paarthu Reddy Gavni</strong></p>
+</div>
+</div>
+<div class="testimonial-col">
+<img src="customer.jpg" alt="Customer 3">
+<div class="testimonial-text">
+    <p>"Joining the Karate Club was one of the best decisions I've made. The community here is amazing, and I've gained so much confidence and strength. Highly recommended!"</p>
+    <p><strong>Aditya Suresh</strong></p>
+</div>
+</div>
+<div class="testimonial-col">
+<img src="customer.jpg" alt="Customer 4">
+<div class="testimonial-text">
+    <p>"I love the variety of classes and the dedication of the trainers. The environment is welcoming and encouraging, making it easy to stay motivated and committed to my fitness journey."</p>
+    <p><strong>Priyansh Narang</strong></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="images" class="main">
+<div class="container">
+<h2>Images</h2>
+<div class="wrapper">
+<div class="container">
+<input type="radio" name="slide" id="c1" checked>
+<label for="c1" class="card" style="background-image: url('karateimg1.webp');">
+    <div class="row">
+        <div class="icon">1</div>
+        <div class="description">
+            <h4>Training Session</h4>
+            <p>Focus and determination in practice.</p>
         </div>
-    </footer>
+    </div>
+</label>
+<input type="radio" name="slide" id="c2">
+<label for="c2" class="card" style="background-image: url('karateimg2.jpeg.jpg');">
+    <div class="row">
+        <div class="icon">2</div>
+        <div class="description">
+            <h4>Forms and Kata</h4>
+            <p>Precision and fluid movements.</p>
+        </div>
+    </div>
+</label>
+<input type="radio" name="slide" id="c3">
+<label for="c3" class="card" style="background-image: url('karateimg2.webp');">
+    <div class="row">
+        <div class="icon">3</div>
+        <div class="description">
+            <h4>Team Training</h4>
+            <p>Building strength and unity together.</p>
+        </div>
+    </div>
+</label>
+<input type="radio" name="slide" id="c4">
+<label for="c4" class="card" style="background-image: url('karateimg4.webp');">
+    <div class="row">
+        <div class="icon">4</div>
+        <div class="description">
+            <h4>Competition</h4>
+            <p>Showcasing skill and discipline.</p>
+        </div>
+    </div>
+</label>
+</div>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p>&copy; 2024 Karate Club. All rights reserved.</p>
+</div>
+</footer>
 </body>
 </html>
